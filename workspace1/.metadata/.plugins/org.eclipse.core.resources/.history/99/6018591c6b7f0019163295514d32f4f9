@@ -1,0 +1,14 @@
+package com.im.myebay.action;
+
+public class MemberAction {
+	
+	public String registration()
+	{
+		try {
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+}

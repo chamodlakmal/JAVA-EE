@@ -1,0 +1,5 @@
+package com.jcl.strut.db;
+
+public class DB {
+
+}

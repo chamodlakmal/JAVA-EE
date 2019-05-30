@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="D:\tool\EE\workspace1\MyEbay1"/>
+		<item value="D:\tool\EE\workspace1\MyEbay"/>
+		<item value="D:\tool\EE\workspace1\Car Sale"/>
+		<item value="D:\tool\EE\workspace1\Car Sale - Hibernate"/>
+		<item value="D:\tool\EE\workspace1\Car Sale Assignment"/>
+		<item value="D:\tool\EE\workspace1\Assignment"/>
+		<item value="C:\Users\chamo\git\jsp-servlet-register-system"/>
+		<item value="D:\tool\EE Ubuntu\eclipse\jee-2018-12\eclipse\media\chamod\New Volume1\tool\EE Ubuntu\workpase\JSP A"/>
+	</list>
+	<section name="ExternalProjectImportWizard">
+		<item value="false" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="D:\tool\EE\workspace1\Car Sale - Hibernate"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+	<section name="NewWizardAction">
+		<item value="org.eclipse.jdt.ui.wizards.JavaProjectWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+		</list>
+	</section>
+	<section name="SaveAsDialogSettings">
+		<item value="700" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="645" key="DIALOG_HEIGHT"/>
+		<item value="619" key="DIALOG_X_ORIGIN"/>
+		<item value="100" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

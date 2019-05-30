@@ -1,0 +1,6 @@
+package com.jcl.strut.action;
+
+public class RegisterAction {
+	public String firstName,lastName,email,password,confirmPassword,phone,day,month,year,gender;
+
+}

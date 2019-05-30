@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;source.css&apos; to &apos;Servelet_ex1/src/com.im.servelets&apos;&#x0D;&#x0A;- Original project: &apos;Assignment&apos;&#x0D;&#x0A;- Destination element: &apos;Servelet_ex1/src/com.im.servelets&apos;&#x0D;&#x0A;- Original element: &apos;source.css&apos;" description="Copy file" destination="=Servelet_ex1/src&lt;com.im.servelets" element1="WebContent/source.css" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1549173785660" units="0" version="1.0"/>
+</session>

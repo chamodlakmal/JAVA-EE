@@ -1,0 +1,6 @@
+127.0.0.1 - - [28/Jan/2019:15:56:52 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [28/Jan/2019:15:56:53 +0530] "GET /Assignment/index.jsp HTTP/1.1" 200 522
+0:0:0:0:0:0:0:1 - - [28/Jan/2019:16:05:43 +0530] "GET /Assignment/index.jsp HTTP/1.1" 200 581
+0:0:0:0:0:0:0:1 - - [28/Jan/2019:16:05:43 +0530] "GET /Assignment/source.css HTTP/1.1" 200 60
+0:0:0:0:0:0:0:1 - - [28/Jan/2019:16:06:42 +0530] "GET /Assignment/index.jsp HTTP/1.1" 200 844
+0:0:0:0:0:0:0:1 - - [28/Jan/2019:16:06:42 +0530] "GET /Assignment/source.css HTTP/1.1" 304 -

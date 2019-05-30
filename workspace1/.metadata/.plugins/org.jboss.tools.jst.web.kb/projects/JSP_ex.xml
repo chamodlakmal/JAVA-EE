@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kb-project>
+ <depends-on-projects/>
+ <used-by-projects/>
+ <paths>
+  <path value="D:/tool/EE/apache-tomcat-8.5.27/lib/jsp-api.jar"/>
+  <path value="D:/tool/EE/apache-tomcat-8.5.27/lib/websocket-api.jar"/>
+  <path value="D:/tool/EE/apache-tomcat-8.5.27/lib/el-api.jar"/>
+  <path value="D:/tool/EE/workspace1/JSP_ex/WebContent/WEB-INF/lib/jstl-1.2.jar">
+   <libraries>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/c-1_0-rt.tld" project="JSP_ex"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/c-1_0.tld" project="JSP_ex"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/c.tld" project="JSP_ex"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/fmt-1_0-rt.tld" project="JSP_ex"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/fmt-1_0.tld" project="JSP_ex"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/fmt.tld" project="JSP_ex"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/fn.tld" project="JSP_ex"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/permittedtaglibs.tld" project="JSP_ex"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/scriptfree.tld" project="JSP_ex"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/sql-1_0-rt.tld" project="JSP_ex"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/sql-1_0.tld" project="JSP_ex"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/sql.tld" project="JSP_ex"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/x-1_0-rt.tld" project="JSP_ex"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/x-1_0.tld" project="JSP_ex"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/x.tld" project="JSP_ex"/>
+    </library>
+   </libraries>
+  </path>
+  <path value="D:/tool/EE/workspace1/JSP_ex/WebContent/WEB-INF/lib/mysql-connector-java-5.0.8-bin.jar"/>
+  <path value="D:/tool/EE/apache-tomcat-8.5.27/lib/catalina-ant.jar"/>
+  <path value="D:/tool/EE/apache-tomcat-8.5.27/lib/tomcat-api.jar"/>
+  <path value="D:/tool/EE/apache-tomcat-8.5.27/lib/jasper-el.jar"/>
+  <path value="D:/tool/EE/apache-tomcat-8.5.27/lib/annotations-api.jar"/>
+  <path value="D:/tool/EE/apache-tomcat-8.5.27/lib/catalina-storeconfig.jar"/>
+  <path value="D:/tool/EE/workspace1/JSP_ex/WebContent/WEB-INF/lib/mysql-connector-java-3.0.17-ga-bin.jar"/>
+  <path value="D:/tool/EE/apache-tomcat-8.5.27/lib/tomcat-i18n-ja.jar"/>
+  <path value="D:/tool/EE/apache-tomcat-8.5.27/lib/servlet-api.jar"/>
+  <path value="D:/tool/EE/apache-tomcat-8.5.27/lib/tomcat-i18n-es.jar"/>
+  <path value="D:/tool/EE/apache-tomcat-8.5.27/lib/tomcat-util-scan.jar"/>
+  <path value="D:/tool/EE/apache-tomcat-8.5.27/lib/ecj-4.6.3.jar"/>
+  <path value="D:/tool/EE/apache-tomcat-8.5.27/lib/catalina.jar"/>
+  <path value="D:/tool/EE/apache-tomcat-8.5.27/lib/tomcat-i18n-fr.jar"/>
+  <path value="D:/tool/EE/apache-tomcat-8.5.27/lib/catalina-tribes.jar"/>
+  <path value="D:/tool/EE/workspace1/JSP_ex/WebContent/WEB-INF/lib/mysql-connector-java-3.1.11-bin.jar"/>
+  <path value="D:/tool/EE/apache-tomcat-8.5.27/lib/catalina-ha.jar"/>
+  <path value="D:/tool/EE/apache-tomcat-8.5.27/lib/jasper.jar"/>
+  <path value="D:/tool/EE/apache-tomcat-8.5.27/lib/tomcat-coyote.jar"/>
+  <path value="D:/tool/EE/apache-tomcat-8.5.27/lib/tomcat-websocket.jar"/>
+  <path value="D:/tool/EE/apache-tomcat-8.5.27/lib/tomcat-jdbc.jar"/>
+  <path value="D:/tool/EE/apache-tomcat-8.5.27/lib/jaspic-api.jar"/>
+  <path value="D:/tool/EE/apache-tomcat-8.5.27/lib/tomcat-util.jar"/>
+  <path value="D:/tool/EE/apache-tomcat-8.5.27/lib/tomcat-dbcp.jar"/>
+  <path value="D:/tool/EE/apache-tomcat-8.5.27/lib/tomcat-jni.jar"/>
+ </paths>
+ <validation>
+  <core validator-id="jsf-verification"/>
+  <core validator-id="jboss.cdi.core"/>
+  <el>
+   <linked-el length="16" name="%0" offset="1385" path="%1"/>
+   <linked-el length="16" name="%2" offset="1385" path="%1"/>
+   <linked-el length="11" name="%3" offset="1430" path="%1"/>
+   <linked-el length="13" name="%4" offset="1466" path="%1"/>
+   <linked-el length="11" name="%5" offset="1430" path="%1"/>
+   <linked-el length="13" name="%5" offset="1466" path="%1"/>
+   <linked-el length="8" name="%6" offset="1219" path="%1"/>
+  </el>
+ </validation>
+ <aliases>
+  <alias path="result" value="%0"/>
+  <alias path="/JSP_ex/WebContent/ex2.jsp" value="%1"/>
+  <alias path="result.rows" value="%2"/>
+  <alias path="row.id" value="%3"/>
+  <alias path="row.name" value="%4"/>
+  <alias path="row" value="%5"/>
+  <alias path="db" value="%6"/>
+ </aliases>
+ <includes/>
+ <uris>
+  <uri value="http://java.sun.com/jsp/jstl/sql">
+   <prefix>s</prefix>
+  </uri>
+  <uri value="http://java.sun.com/jsp/jstl/core">
+   <prefix>c</prefix>
+  </uri>
+ </uris>
+</kb-project>

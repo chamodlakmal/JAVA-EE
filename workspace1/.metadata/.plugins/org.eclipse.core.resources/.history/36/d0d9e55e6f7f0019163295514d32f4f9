@@ -1,0 +1,17 @@
+package com.im.myebay.action;
+
+import com.opensymphony.xwork2.ActionSupport;
+
+public class MemberAction extends ActionSupport {
+	
+	public String registration()
+	{
+		try {
+			return SUCCESS;
+		} catch (Exception e) {
+			e.printStackTrace();
+			return ERROR;
+		}
+	}
+
+}

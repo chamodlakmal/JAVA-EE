@@ -1,0 +1,10 @@
+127.0.0.1 - - [22/Feb/2019:19:51:31 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [22/Feb/2019:19:51:33 +0530] "GET /JSP_Assignment/ HTTP/1.1" 404 1093
+0:0:0:0:0:0:0:1 - - [22/Feb/2019:19:51:50 +0530] "GET /JSP_Assignment/register HTTP/1.1" 404 1101
+127.0.0.1 - - [22/Feb/2019:19:54:59 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [22/Feb/2019:19:55:01 +0530] "GET /Assignment/ HTTP/1.1" 200 29814
+0:0:0:0:0:0:0:1 - - [22/Feb/2019:19:55:01 +0530] "GET /Assignment/source.css HTTP/1.1" 200 1009
+0:0:0:0:0:0:0:1 - - [22/Feb/2019:19:55:01 +0530] "GET /Assignment/images/default-display-image-car-638815e7606c67291ff77fd17e1dbb17.png HTTP/1.1" 200 6827
+0:0:0:0:0:0:0:1 - - [22/Feb/2019:19:55:01 +0530] "GET /Assignment/images/10853263585329971931.png HTTP/1.1" 200 41485
+0:0:0:0:0:0:0:1 - - [22/Feb/2019:19:55:01 +0530] "GET /Assignment/images/1280px-Get_it_on_Google_play.svg.png HTTP/1.1" 200 45926
+0:0:0:0:0:0:0:1 - - [22/Feb/2019:19:55:01 +0530] "GET /Assignment/images/app-store-coupon-my-new.png HTTP/1.1" 200 147536

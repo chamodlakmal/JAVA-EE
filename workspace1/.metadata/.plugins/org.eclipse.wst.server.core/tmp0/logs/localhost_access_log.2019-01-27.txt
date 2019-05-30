@@ -1,0 +1,4 @@
+127.0.0.1 - - [27/Jan/2019:21:21:08 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [27/Jan/2019:21:21:24 +0530] "GET /MyProject/index.jsp HTTP/1.1" 200 369940
+0:0:0:0:0:0:0:1 - - [27/Jan/2019:21:21:24 +0530] "GET /MyProject/images/default-display-image-car-638815e7606c67291ff77fd17e1dbb16.png HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [27/Jan/2019:21:29:32 +0530] "GET /MyProject/index.jsp HTTP/1.1" 200 369905
