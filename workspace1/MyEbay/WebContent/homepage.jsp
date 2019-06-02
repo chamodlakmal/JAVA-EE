@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
-    <%@taglib prefix="s" uri="/struts-tags" %>
+<%@taglib prefix="s" uri="/struts-tags" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -13,20 +13,17 @@
 <body>
 	<div class="container">
 		<%@ include file="WEB-INF/parts/header.jsp" %>
-		<s:iterator value="itemList" var="item">
-			<div class="row">
-						
-							
-							<img class="img img-thumbnail img-responsive" src="uploads/<s:property value="photoFileName"/>" width="100px" height="100px"/>
-							
-							<h3><s:property value="title"/></h3>
-							<span><s:property value="description"/></span>
-							<span><s:property value="price"/></span>
-							<span><s:property value="date"/></span>
-						
-						</div>
-					</s:iterator>
-		
+		<div class="row">
+			<s:iterator value="itemList" var="item">
+				<div class="col-md-3">
+					<img class="img img-thumbnail img-responsive" src="uploads/<s:property value="photoFileName"/>" />
+					<h3><s:property value="title"/></h3>
+					<span><s:property value="description"/></span>
+					<span><s:property value="price"/></span>
+					<span><s:property value="date"/></span>
+				</div>
+			</s:iterator>
+		</div>
 	</div>
 </body>
 </html>

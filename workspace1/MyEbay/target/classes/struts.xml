@@ -9,27 +9,28 @@
 		<action name="items" class="com.im.myebay.action.ItemAction" method="list">
 			<result name="success">/item_list.jsp</result>
 		</action>
-		
-		<action name="save_item" class="com.im.myebay.action.ItemAction" method="add">
-			<result name="success">/item_list.jsp</result>
-			<result name="input">/item_add.jsp</result>
-		</action>
-	
+				
 		<action name="" class="com.im.myebay.action.ItemAction" method="list">
 			<result name="success">/homepage.jsp</result>
-			
 		</action>
-	
-		<action name="registration" class="com.im.myebay.action.MemberAction" method="registration">
-			<result name="success">/thankyou.jsp</result>
-			<result name="error">/error.jsp</result>
-			<result name="input">/register.jsp</result>
+		<action name="save_item" class="com.im.myebay.action.ItemAction" method="add">
+			<result name="success">/item_list.jsp</result>
 		</action>
 		
-		<action name="auth" class="com.im.myebay.action.MemberAction" method="auth">
-			<result name="success" type="chain"></result>
-			<result name="error">/error.jsp</result>
-			<result name="input">/login.jsp</result>
+		
+		<action name="registration" class="com.im.myebay.action.MemberAction"
+			 method="registration">
+			 <result name="success">/thankyou.jsp</result>
+			 <result name="error">/error.jsp</result>
+			 <result name="input">/register.jsp</result>
 		</action>
+		<action name="auth" class="com.im.myebay.action.MemberAction"
+			 method="auth">
+			 <result name="success" type="chain"></result>
+			 <result name="error">/error.jsp</result>
+			 <result name="input">/login.jsp</result>
+		</action>
+		
+		
 	</package>
 </struts>

@@ -5,7 +5,12 @@
  <paths>
   <path value="C:/Users/chamo/.m2/repository/org/apache/tomcat/tomcat-i18n-fr/8.5.27/tomcat-i18n-fr-8.5.27.jar"/>
   <path value="D:/tool/EE/apache-tomcat-8.5.27/lib/catalina-ant.jar"/>
-  <path value="D:/tool/EE/workspace1/Car Sale - Hibernate/WebContent/WEB-INF/lib/jstl-1.2.jar">
+  <path value="D:/tool/EE/apache-tomcat-8.5.27/lib/tomcat-api.jar"/>
+  <path value="C:/Users/chamo/.m2/repository/org/eclipse/jdt/ecj/3.12.3/ecj-3.12.3.jar"/>
+  <path value="C:/Users/chamo/.m2/repository/org/apache/tomcat/tomcat-coyote/8.5.27/tomcat-coyote-8.5.27.jar"/>
+  <path value="C:/Users/chamo/.m2/repository/org/jboss/spec/javax/transaction/jboss-transaction-api_1.2_spec/1.0.1.Final/jboss-transaction-api_1.2_spec-1.0.1.Final.jar"/>
+  <path value="C:/Users/chamo/.m2/repository/org/apache/tomcat/tomcat-juli/8.5.27/tomcat-juli-8.5.27.jar"/>
+  <path value="D:/tool/EE/JAVA-EE/workspace1/Car Sale - Hibernate/WebContent/WEB-INF/lib/jstl-1.2.jar">
    <libraries>
     <library class="tld">
      <id class="model-object"
@@ -69,11 +74,6 @@
     </library>
    </libraries>
   </path>
-  <path value="D:/tool/EE/apache-tomcat-8.5.27/lib/tomcat-api.jar"/>
-  <path value="C:/Users/chamo/.m2/repository/org/eclipse/jdt/ecj/3.12.3/ecj-3.12.3.jar"/>
-  <path value="C:/Users/chamo/.m2/repository/org/apache/tomcat/tomcat-coyote/8.5.27/tomcat-coyote-8.5.27.jar"/>
-  <path value="C:/Users/chamo/.m2/repository/org/jboss/spec/javax/transaction/jboss-transaction-api_1.2_spec/1.0.1.Final/jboss-transaction-api_1.2_spec-1.0.1.Final.jar"/>
-  <path value="C:/Users/chamo/.m2/repository/org/apache/tomcat/tomcat-juli/8.5.27/tomcat-juli-8.5.27.jar"/>
   <path value="D:/tool/EE/apache-tomcat-8.5.27/lib/annotations-api.jar"/>
   <path value="D:/tool/EE/apache-tomcat-8.5.27/lib/catalina-storeconfig.jar"/>
   <path value="C:/Users/chamo/.m2/repository/org/apache/tomcat/tomcat-websocket-api/8.5.27/tomcat-websocket-api-8.5.27.jar"/>
@@ -93,9 +93,9 @@
   <path value="C:/Users/chamo/.m2/repository/org/apache/tomcat/tomcat-tribes/8.5.27/tomcat-tribes-8.5.27.jar"/>
   <path value="D:/tool/EE/apache-tomcat-8.5.27/lib/catalina-ha.jar"/>
   <path value="D:/tool/EE/apache-tomcat-8.5.27/lib/jasper.jar"/>
-  <path value="D:/tool/EE/workspace1/Car Sale - Hibernate/WebContent/WEB-INF/lib/mysql-connector-java-3.1.11-bin.jar"/>
   <path value="C:/Users/chamo/.m2/repository/org/apache/tomcat/tomcat-jasper/8.5.27/tomcat-jasper-8.5.27.jar"/>
   <path value="D:/tool/EE/apache-tomcat-8.5.27/lib/tomcat-websocket.jar"/>
+  <path value="D:/tool/EE/JAVA-EE/workspace1/Car Sale - Hibernate/WebContent/WEB-INF/lib/mysql-connector-java-3.1.11-bin.jar"/>
   <path value="D:/tool/EE/apache-tomcat-8.5.27/lib/tomcat-jdbc.jar"/>
   <path value="D:/tool/EE/apache-tomcat-8.5.27/lib/jaspic-api.jar"/>
   <path value="C:/Users/chamo/.m2/repository/org/apache/tomcat/tomcat-api/8.5.27/tomcat-api-8.5.27.jar"/>
@@ -106,10 +106,10 @@
   <path value="D:/tool/EE/apache-tomcat-8.5.27/lib/websocket-api.jar"/>
   <path value="D:/tool/EE/apache-tomcat-8.5.27/lib/el-api.jar"/>
   <path value="C:/Users/chamo/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar"/>
-  <path value="D:/tool/EE/workspace1/Car Sale - Hibernate/WebContent/WEB-INF/lib/mysql-connector-java-5.0.8-bin.jar"/>
   <path value="C:/Users/chamo/.m2/repository/org/apache/tomcat/tomcat-catalina-ha/8.5.27/tomcat-catalina-ha-8.5.27.jar"/>
   <path value="C:/Users/chamo/.m2/repository/org/apache/tomcat/tomcat-jaspic-api/8.5.27/tomcat-jaspic-api-8.5.27.jar"/>
   <path value="D:/tool/EE/apache-tomcat-8.5.27/lib/jasper-el.jar"/>
+  <path value="D:/tool/EE/JAVA-EE/workspace1/Car Sale - Hibernate/WebContent/WEB-INF/lib/mysql-connector-java-5.0.8-bin.jar"/>
   <path value="C:/Users/chamo/.m2/repository/org/apache/tomcat/tomcat-annotations-api/8.5.27/tomcat-annotations-api-8.5.27.jar"/>
   <path value="C:/Users/chamo/.m2/repository/org/apache/tomcat/tomcat-jsp-api/8.5.27/tomcat-jsp-api-8.5.27.jar"/>
   <path value="D:/tool/EE/apache-tomcat-8.5.27/lib/tomcat-i18n-ja.jar"/>
@@ -117,63 +117,63 @@
    <libraries>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jstl-1.2.jar-1/meta-inf/c-1_0-rt.tld" project="Car Sale"/>
+      path="FileSystems/lib-jstl-1.2.jar-1/meta-inf/c-1_0-rt.tld" project="Car Sale - Hibernate"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jstl-1.2.jar-1/meta-inf/c-1_0.tld" project="Car Sale"/>
+      path="FileSystems/lib-jstl-1.2.jar-1/meta-inf/c-1_0.tld" project="Car Sale - Hibernate"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jstl-1.2.jar-1/meta-inf/c.tld" project="Car Sale"/>
+      path="FileSystems/lib-jstl-1.2.jar-1/meta-inf/c.tld" project="Car Sale - Hibernate"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jstl-1.2.jar-1/meta-inf/fmt-1_0-rt.tld" project="Car Sale"/>
+      path="FileSystems/lib-jstl-1.2.jar-1/meta-inf/fmt-1_0-rt.tld" project="Car Sale - Hibernate"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jstl-1.2.jar-1/meta-inf/fmt-1_0.tld" project="Car Sale"/>
+      path="FileSystems/lib-jstl-1.2.jar-1/meta-inf/fmt-1_0.tld" project="Car Sale - Hibernate"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jstl-1.2.jar-1/meta-inf/fmt.tld" project="Car Sale"/>
+      path="FileSystems/lib-jstl-1.2.jar-1/meta-inf/fmt.tld" project="Car Sale - Hibernate"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jstl-1.2.jar-1/meta-inf/fn.tld" project="Car Sale"/>
+      path="FileSystems/lib-jstl-1.2.jar-1/meta-inf/fn.tld" project="Car Sale - Hibernate"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jstl-1.2.jar-1/meta-inf/permittedtaglibs.tld" project="Car Sale"/>
+      path="FileSystems/lib-jstl-1.2.jar-1/meta-inf/permittedtaglibs.tld" project="Car Sale - Hibernate"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jstl-1.2.jar-1/meta-inf/scriptfree.tld" project="Car Sale"/>
+      path="FileSystems/lib-jstl-1.2.jar-1/meta-inf/scriptfree.tld" project="Car Sale - Hibernate"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jstl-1.2.jar-1/meta-inf/sql-1_0-rt.tld" project="Car Sale"/>
+      path="FileSystems/lib-jstl-1.2.jar-1/meta-inf/sql-1_0-rt.tld" project="Car Sale - Hibernate"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jstl-1.2.jar-1/meta-inf/sql-1_0.tld" project="Car Sale"/>
+      path="FileSystems/lib-jstl-1.2.jar-1/meta-inf/sql-1_0.tld" project="Car Sale - Hibernate"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jstl-1.2.jar-1/meta-inf/sql.tld" project="Car Sale"/>
+      path="FileSystems/lib-jstl-1.2.jar-1/meta-inf/sql.tld" project="Car Sale - Hibernate"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jstl-1.2.jar-1/meta-inf/x-1_0-rt.tld" project="Car Sale"/>
+      path="FileSystems/lib-jstl-1.2.jar-1/meta-inf/x-1_0-rt.tld" project="Car Sale - Hibernate"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jstl-1.2.jar-1/meta-inf/x-1_0.tld" project="Car Sale"/>
+      path="FileSystems/lib-jstl-1.2.jar-1/meta-inf/x-1_0.tld" project="Car Sale - Hibernate"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jstl-1.2.jar-1/meta-inf/x.tld" project="Car Sale"/>
+      path="FileSystems/lib-jstl-1.2.jar-1/meta-inf/x.tld" project="Car Sale - Hibernate"/>
     </library>
    </libraries>
   </path>
@@ -181,6 +181,7 @@
   <path value="C:/Users/chamo/.m2/repository/org/apache/tomcat/tomcat-catalina/8.5.27/tomcat-catalina-8.5.27.jar"/>
   <path value="C:/Users/chamo/.m2/repository/org/apache/tomcat/tomcat-dbcp/8.5.27/tomcat-dbcp-8.5.27.jar"/>
   <path value="C:/Users/chamo/.m2/repository/org/apache/tomcat/tomcat-util-scan/8.5.27/tomcat-util-scan-8.5.27.jar"/>
+  <path value="D:/tool/EE/JAVA-EE/workspace1/Car Sale - Hibernate/WebContent/WEB-INF/lib/mysql-connector-java-3.0.17-ga-bin.jar"/>
   <path value="C:/Users/chamo/.m2/repository/com/fasterxml/classmate/1.3.0/classmate-1.3.0.jar"/>
   <path value="D:/tool/EE/apache-tomcat-8.5.27/lib/ecj-4.6.3.jar"/>
   <path value="D:/tool/EE/apache-tomcat-8.5.27/lib/catalina.jar"/>
@@ -190,7 +191,6 @@
   <path value="C:/Users/chamo/.m2/repository/org/apache/tomcat/tomcat-i18n-ja/8.5.27/tomcat-i18n-ja-8.5.27.jar"/>
   <path value="D:/tool/EE/apache-tomcat-8.5.27/lib/tomcat-coyote.jar"/>
   <path value="C:/Users/chamo/.m2/repository/org/apache/tomcat/tomcat-el-api/8.5.27/tomcat-el-api-8.5.27.jar"/>
-  <path value="D:/tool/EE/workspace1/Car Sale - Hibernate/WebContent/WEB-INF/lib/mysql-connector-java-3.0.17-ga-bin.jar"/>
   <path value="C:/Users/chamo/.m2/repository/org/javassist/javassist/3.22.0-GA/javassist-3.22.0-GA.jar"/>
   <path value="C:/Users/chamo/.m2/repository/org/apache/tomcat/tomcat-servlet-api/8.5.27/tomcat-servlet-api-8.5.27.jar"/>
   <path value="C:/Users/chamo/.m2/repository/org/apache/tomcat/tomcat-util/8.5.27/tomcat-util-8.5.27.jar"/>

@@ -97,8 +97,6 @@
   <path value="D:/tool/EE/apache-tomcat-8.5.27/lib/tomcat-jni.jar"/>
  </paths>
  <validation>
-  <core validator-id="jsf-verification"/>
-  <core validator-id="jboss.cdi.core"/>
   <el/>
  </validation>
  <aliases/>

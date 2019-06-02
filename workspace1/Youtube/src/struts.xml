@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+"http://structs.apache.org/dtds/struts-2.0.dtd" >
+<struts>
+	<constant name="struts.devMode" value="true"/>
+	<package name="default" extends="struts-default">
+	
+	<action name="registration" class="com.jcl.strut.action.RegisterAction" method="registration">
+		<result name="success">/index.jsp</result>
+		<result name="error">/register.jsp</result>
+	</action>
+	
+	<action name="auth" class="com.jcl.strut.action.RegisterAction"
+			 method="auth">
+			 <result name="success" >/index.jsp</result>
+			 <result name="error">/error.jsp</result>
+			 <result name="input">/login.jsp</result>
+		</action>
+	</package>
+</struts>

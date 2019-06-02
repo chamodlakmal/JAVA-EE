@@ -5,24 +5,22 @@
 			<a href="items" class="btn btn-success"> ITEMS </a>
 			
 			<%
-				if(session.getAttribute("NAME")!=null)
-				{
-					out.print("Welcome "+session.getAttribute("NAME"));
-				
-			 %>
-			 <a href="login.jsp" class="btn btn-success"> LOG OUT </a>
-			 <%
-			 }else{
-			 
-			  %>
-			<a href="login.jsp" class="btn btn-success"> LOGIN </a>
-			<a href="register.jsp" class="btn btn-success"> REGISTER </a>
-			<%} %>
-		</div>
-		
-		<style type="text/css">
-			.label
-			{
-				color:#888;
+			if(session.getAttribute("NAME")!=null){
+				out.print("Welcome "+session.getAttribute("NAME"));
+				%>
+				<a href="logout" class="btn btn-success"> LOGOUT </a>
+				<%
+			}else{
+				%>
+				<a href="register.jsp" class="btn btn-success"> REGISTER </a>
+				<a href="login.jsp" class="btn btn-success"> LOGIN </a>
+				<%
 			}
-		</style>
+			%>
+</div>
+
+<style type="text/css">
+	.label{
+		color: #888;
+	}
+</style>

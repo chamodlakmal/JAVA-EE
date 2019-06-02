@@ -1,0 +1,6 @@
+package com.jcl.strut.action;
+
+public class VideoAction {
+	
+
+}

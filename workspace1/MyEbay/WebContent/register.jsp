@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
-    <%@ taglib prefix="s" uri="/struts-tags" %>
+<%@taglib prefix="s" uri="/struts-tags" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -13,20 +13,21 @@
 <body>
 	<div class="container">
 		<%@ include file="WEB-INF/parts/header.jsp" %>
+		
 		<div class="panel panel-default">
-  			<div class="panel-heading">Register</div>
-  			<div class="panel-body">
-  				<s:form action="registration" method="post" enctype="multipart/form-data">
-  					<s:textfield name="member.name" label="Your Name" cssClass="form-control" size="150%"></s:textfield>
-  					<s:textfield name="member.email" label="Your Email" cssClass="form-control"></s:textfield>
-  					<s:textfield name="member.mobile" label="Your Mobile" cssClass="form-control"></s:textfield>
-  					<s:textarea name="member.address" label="Your Address" cssClass="form-control"></s:textarea>
-  					<s:file name="member.photo" label="Your Image" cssClass="form-control" ></s:file>
-  					<s:textfield name="member.password" label="Your Password" cssClass="form-control"></s:textfield>
-  					<s:submit value="REGISTER" cssClass="btn btn-success"></s:submit>
-  				</s:form>
-  			</div>
-</div>
+		  <div class="panel-heading">Registration Page</div>
+		  <div class="panel-body">
+		  		<s:form action="registration" method="post" enctype="multipart/form-data">
+		  			<s:textfield name="member.name" label="Your Name" size="150%" cssClass="form-control"></s:textfield>
+		  			<s:textfield name="member.email" label="Your Email" cssClass="form-control"></s:textfield>
+		  			<s:textfield name="member.mobile" label="Your Mobile" cssClass="form-control"></s:textfield>
+		  			<s:textarea name="member.address" label="Your Address" cssClass="form-control"></s:textarea>
+		  			<s:file name="member.photo" label="Your Image" cssClass="form-control"></s:file>
+		  			<s:textfield name="member.password" label="Your Password" cssClass="form-control"></s:textfield>
+		  			<s:submit value="REGISTER" cssClass="btn btn-success"></s:submit>
+		  		</s:form>
+		  </div>
+		</div>
 	</div>
 </body>
 </html>

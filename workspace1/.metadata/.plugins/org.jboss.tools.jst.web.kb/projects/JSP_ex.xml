@@ -6,7 +6,7 @@
   <path value="D:/tool/EE/apache-tomcat-8.5.27/lib/jsp-api.jar"/>
   <path value="D:/tool/EE/apache-tomcat-8.5.27/lib/websocket-api.jar"/>
   <path value="D:/tool/EE/apache-tomcat-8.5.27/lib/el-api.jar"/>
-  <path value="D:/tool/EE/workspace1/JSP_ex/WebContent/WEB-INF/lib/jstl-1.2.jar">
+  <path value="D:/tool/EE/JAVA-EE/workspace1/JSP_ex/WebContent/WEB-INF/lib/jstl-1.2.jar">
    <libraries>
     <library class="tld">
      <id class="model-object"
@@ -70,13 +70,12 @@
     </library>
    </libraries>
   </path>
-  <path value="D:/tool/EE/workspace1/JSP_ex/WebContent/WEB-INF/lib/mysql-connector-java-5.0.8-bin.jar"/>
   <path value="D:/tool/EE/apache-tomcat-8.5.27/lib/catalina-ant.jar"/>
   <path value="D:/tool/EE/apache-tomcat-8.5.27/lib/tomcat-api.jar"/>
+  <path value="D:/tool/EE/JAVA-EE/workspace1/JSP_ex/WebContent/WEB-INF/lib/mysql-connector-java-5.0.8-bin.jar"/>
   <path value="D:/tool/EE/apache-tomcat-8.5.27/lib/jasper-el.jar"/>
   <path value="D:/tool/EE/apache-tomcat-8.5.27/lib/annotations-api.jar"/>
   <path value="D:/tool/EE/apache-tomcat-8.5.27/lib/catalina-storeconfig.jar"/>
-  <path value="D:/tool/EE/workspace1/JSP_ex/WebContent/WEB-INF/lib/mysql-connector-java-3.0.17-ga-bin.jar"/>
   <path value="D:/tool/EE/apache-tomcat-8.5.27/lib/tomcat-i18n-ja.jar"/>
   <path value="D:/tool/EE/apache-tomcat-8.5.27/lib/servlet-api.jar"/>
   <path value="D:/tool/EE/apache-tomcat-8.5.27/lib/tomcat-i18n-es.jar"/>
@@ -85,11 +84,12 @@
   <path value="D:/tool/EE/apache-tomcat-8.5.27/lib/catalina.jar"/>
   <path value="D:/tool/EE/apache-tomcat-8.5.27/lib/tomcat-i18n-fr.jar"/>
   <path value="D:/tool/EE/apache-tomcat-8.5.27/lib/catalina-tribes.jar"/>
-  <path value="D:/tool/EE/workspace1/JSP_ex/WebContent/WEB-INF/lib/mysql-connector-java-3.1.11-bin.jar"/>
   <path value="D:/tool/EE/apache-tomcat-8.5.27/lib/catalina-ha.jar"/>
   <path value="D:/tool/EE/apache-tomcat-8.5.27/lib/jasper.jar"/>
+  <path value="D:/tool/EE/JAVA-EE/workspace1/JSP_ex/WebContent/WEB-INF/lib/mysql-connector-java-3.1.11-bin.jar"/>
   <path value="D:/tool/EE/apache-tomcat-8.5.27/lib/tomcat-coyote.jar"/>
   <path value="D:/tool/EE/apache-tomcat-8.5.27/lib/tomcat-websocket.jar"/>
+  <path value="D:/tool/EE/JAVA-EE/workspace1/JSP_ex/WebContent/WEB-INF/lib/mysql-connector-java-3.0.17-ga-bin.jar"/>
   <path value="D:/tool/EE/apache-tomcat-8.5.27/lib/tomcat-jdbc.jar"/>
   <path value="D:/tool/EE/apache-tomcat-8.5.27/lib/jaspic-api.jar"/>
   <path value="D:/tool/EE/apache-tomcat-8.5.27/lib/tomcat-util.jar"/>
@@ -97,8 +97,6 @@
   <path value="D:/tool/EE/apache-tomcat-8.5.27/lib/tomcat-jni.jar"/>
  </paths>
  <validation>
-  <core validator-id="jsf-verification"/>
-  <core validator-id="jboss.cdi.core"/>
   <el>
    <linked-el length="16" name="%0" offset="1385" path="%1"/>
    <linked-el length="16" name="%2" offset="1385" path="%1"/>

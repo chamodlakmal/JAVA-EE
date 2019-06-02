@@ -12,7 +12,6 @@ import com.im.myebay.model.Item;
 import com.im.myebay.util.DB;
 import com.opensymphony.xwork2.ActionSupport;
 
-
 public class ItemAction  extends ActionSupport{
 
 	private List<Item> itemList;
@@ -24,17 +23,20 @@ public class ItemAction  extends ActionSupport{
 	}
 	
 	public String add(){
+		
 		try {
-			ServletContext servletContext=ServletActionContext.getServletContext();
-			String path="/uploads/";
-			String filePath=servletContext.getRealPath(path);
-			System.out.println("Server path :"+filePath);
-			File fileToCreate=new File(filePath,item.getPhotoFileName());
-			FileUtils.copyFile(item.getPhoto(), fileToCreate);
-			
+			ServletContext servletContext = ServletActionContext.getServletContext();
+			String path = "/uploads/";
+			String filePath = servletContext.getRealPath(path);
+			System.out.println("Server path:" + filePath);
+		    File fileToCreate = new File(filePath, item.getPhotoFileName());
+		    FileUtils.copyFile(item.getPhoto(), fileToCreate);
+
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
+		
+		
 		DB.save(item);
 		itemList =  (List<Item>) DB.list("Item");
 		return SUCCESS;

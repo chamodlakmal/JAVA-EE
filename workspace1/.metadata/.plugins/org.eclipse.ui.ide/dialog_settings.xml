@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="D:\tool\EE\JAVA-EE\workspace1\MyEbay"/>
 		<item value="D:\tool\EE\workspace1\MyEbay1"/>
 		<item value="D:\tool\EE\workspace1\MyEbay"/>
 		<item value="D:\tool\EE\workspace1\Car Sale"/>

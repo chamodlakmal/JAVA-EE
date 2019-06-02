@@ -9,16 +9,15 @@ import javax.persistence.Id;
 public class User {
 	@GeneratedValue
 	@Id
-	public int id;
-	public String firstName;
-	public String lastName;
-	public String email;
-	public String password;
-	public String phone;
-	public String bod;
-	public String gender;
-	public int status;
-	public Date regDate;
+	private int id;
+	private String firstName;
+	private String lastName;
+	private String email;
+	private String password;
+	private String phone;
+	private String bod;
+	private String gender;
+	private Date regDate;
 	public int getId() {
 		return id;
 	}
@@ -79,6 +78,7 @@ public class User {
 	public void setRegDate(Date regDate) {
 		this.regDate = regDate;
 	}
+	
 	
 	
 

@@ -14,7 +14,7 @@
 		<%@ include file="WEB-INF/parts/header.jsp" %>
 		
 		<div class="alert alert-danger well well-lg">
-			<h1>Error !!!</h1>
+			<h1> Error Registration Please retry!</h1>
 		</div>
 	</div>
 </body>

@@ -29,12 +29,12 @@
 				  <div class="panel-body">
 				  
 						<s:form action="save_item" method="POST" enctype="multipart/form-data">
-							<s:textfield name="item.title" label="Title"></s:textfield>
-							<s:textfield name="item.description" label="Description"></s:textfield>
-							<s:textfield name="item.price" label="Price"></s:textfield>
-							<s:textfield name="item.date" label="Date"></s:textfield>
-							<s:file name="item.photo" label="Photo"></s:file>
-							<img src="uploads/<s:property value="item.photoFileName"/>"/>
+							<s:textfield name="item.title" label="Title" size="150%" cssClass="form-control"></s:textfield>
+							<s:textfield name="item.description" label="Description" cssClass="form-control"></s:textfield>
+							<s:textfield name="item.price" label="Price" cssClass="form-control"></s:textfield>
+							<s:textfield name="item.date" label="Date" cssClass="form-control"></s:textfield>
+							<s:file name="item.photo" label="Photo" cssClass="form-control"></s:file>
+							<img class="img img-responsive img-thumbnail" src="uploads/<s:property value="item.photoFileName" />"/>
 							<s:submit value="Save"></s:submit>
 						</s:form>
 						

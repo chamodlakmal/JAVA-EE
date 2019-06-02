@@ -5,8 +5,7 @@
 	<constant name="struts.devMode" value="true"/>
 	<package name="default" extends="struts-default">
 	
-	
-	<action name="register" class="com.jcl.strut.action.RegisterAction">
+	<action name="registration" class="com.jcl.strut.action.RegisterAction" method="registration">
 		<result name="success">/index.jsp</result>
 		<result name="error">/register.jsp</result>
 	</action>
@@ -14,6 +13,9 @@
 		<result name="success">/index.jsp</result>
 		<result name="error">/sign1.jsp</result>
 	</action>
+	
+	
+	
 	
 	
 	</package>

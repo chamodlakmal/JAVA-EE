@@ -16,7 +16,7 @@ public class LoginAction {
 			Session session = sf.openSession();
 			session.beginTransaction();
 			User user = (User)session.get(User.class,email);
-			System.out.println(user.getPassword());
+			//System.out.println(user.getPassword());
 			System.out.println(email);
 			return "success";
 		} catch (Exception e) {

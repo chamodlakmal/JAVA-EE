@@ -11,10 +11,15 @@
 		<property name="connection.pool_size">10</property>
 		<property name="connection.show_sql">true</property>
 		<property name="cache.provider_class">org.hibernate.cache.NoCacheProvider</property>
-		<property name="hbm2ddl.auto">update</property>
+		<property name="hbm2ddl.auto">create</property>
 		
 		<mapping class="com.jcl.strut.model.User"/>
 		
+	
+	
+	
+	
+	
 	
 	</session-factory>
 </hibernate-configuration>

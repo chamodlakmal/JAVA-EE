@@ -14,7 +14,7 @@
 		<%@ include file="WEB-INF/parts/header.jsp" %>
 		
 		<div class="alert alert-success well well-lg">
-			<h1>Thank you for registering with us</h1>
+			<h1> Thank You For Registering with Us!</h1>
 		</div>
 	</div>
 </body>

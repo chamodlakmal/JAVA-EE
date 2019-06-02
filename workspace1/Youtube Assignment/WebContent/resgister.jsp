@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
+    <%@taglib prefix="s" uri="/struts-tags" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -31,45 +32,28 @@
 	<div class="row">
 	<div class="col-md-3"></div>
 	<div class="col-md-6" style="text-align:center;border-bottom:1px solid black;border-left:1px solid black;border-right:1px solid black;">
-	<form  action="register" method="post">
   <div class="form-group">
  	<div class="row">
- 		<div class="col-md-6">
- 			<input type="text" class="form-control" style="margin-top:10px;" id="usr" placeholder="first name" name="firstName">
- 		</div>
- 		<div class="col-md-6">
- 			<input type="text" class="form-control" style="margin-top:10px;" id="usr" placeholder="last name" name="lastName">
- 		</div>
- 		<div class="col-md-12">
- 			<input type="text"value="@gmail.com" class="form-control" style="margin-top:10px;" id="usr" placeholder="User name" name="email">
- 		</div>
- 		<div class="col-md-6">
- 			<input type="password" class="form-control" style="margin-top:10px;" id="usr" placeholder="password" name="password">
- 		</div>
- 		<div class="col-md-6">
- 			<input type="password" class="form-control" style="margin-top:10px;" id="usr" placeholder="confirm password" name="confirmPassword">
- 		</div>
- 		<div class="col-md-12">
- 			<input type="text" class="form-control" style="margin-top:10px;" id="usr" placeholder="Phone number" name="phone">
- 		</div>
- 		<div class="col-md-4">
- 			<input type="text" class="form-control" style="margin-top:10px;" id="usr" placeholder="day" name="day">
- 		</div>
- 		<div class="col-md-4">
- 			<input type="text" class="form-control" style="margin-top:10px;" id="usr" placeholder="month" name="month">
- 		</div>
- 		<div class="col-md-4">
- 			<input type="text" class="form-control" style="margin-top:10px;" id="usr" placeholder="Year" name="year">
- 		</div>
- 		<div class="col-md-6">
- 			<input type="text" class="form-control" style="margin-top:10px;margin-bottom: 10px;" id="usr" placeholder="Gender" name="gender">
- 		</div>
+ 		
+ 		<style type="text/css">
+			.label{
+				color: #888;
+			}
+		</style>
+ 		<s:form action="registration" method="post" enctype="multipart/form-data">
+		  			<s:textfield name="user.name" label="First Name" size="150%" cssClass="form-control"></s:textfield>
+		  			
+		  			<s:textfield name="user.email" label="Email" cssClass="form-control"></s:textfield>
+		  			
+		  			
+		  			<s:textfield name="user.mobile" label="Phone" cssClass="form-control"></s:textfield>
+		  			
+		  			<s:submit value="REGISTER" cssClass="btn btn-success"></s:submit>
+		  		</s:form>
  		
  	</div>
-  
-  <input type="submit" class="btn btn-success" style="width:50%;margin-top:5px;margin:0 auto;" value="Register"/>
+
 </div>
-	</form>	
 		
 	</div>
 	<div class="col-md-3"></div>
