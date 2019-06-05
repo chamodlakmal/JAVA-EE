@@ -961,3 +961,27 @@ Contains: Missing antlr:antlr:jar:javadoc:2.7.7
 2019-06-01 17:10:38,477 23985238 [lding workspace] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2019-06-01 17:11:22,810 24029571 [lding workspace] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2019-06-01 17:11:22,811 24029572 [lding workspace] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-06-02 12:42:56,890 17552900 [   ModalContext] WARN  vaProjectConversionParticipant  - SpringWMVC has multiple source entries, this is not supported yet
+2019-06-04 20:50:35,078 51511  [lding workspace] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-06-04 20:50:35,196 51629  [lding workspace] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-06-04 20:51:07,759 84192  [lding workspace] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-06-04 20:51:07,765 84198  [lding workspace] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-06-04 20:51:13,102 89535  [lding workspace] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-06-04 20:51:13,105 89538  [lding workspace] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-06-04 20:51:14,473 90906  [lding workspace] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-06-04 20:51:14,475 90908  [lding workspace] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-06-04 20:51:24,166 100599 [lding workspace] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-06-04 20:51:24,168 100601 [lding workspace] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-06-04 20:51:25,595 102028 [lding workspace] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-06-04 20:51:25,613 102046 [lding workspace] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-06-04 20:51:30,427 106860 [lding workspace] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-06-04 20:51:30,429 106862 [lding workspace] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-06-04 20:51:35,507 111940 [lding workspace] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-06-04 20:51:35,510 111943 [lding workspace] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-06-04 20:51:40,612 117045 [lding workspace] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-06-04 20:51:40,614 117047 [lding workspace] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-06-04 20:51:43,930 120363 [lding workspace] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-06-04 20:51:43,933 120366 [lding workspace] WARN  nternal.embedder.EclipseLogger  - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-06-05 07:45:51,296 1661430 [   ModalContext] WARN  vaProjectConversionParticipant  - SpringMVC has multiple source entries, this is not supported yet
+2019-06-05 09:30:52,660 7962794 [   ModalContext] WARN  vaProjectConversionParticipant  - SpringMVC has multiple source entries, this is not supported yet
+2019-06-05 09:46:59,755 8929889 [   ModalContext] WARN  vaProjectConversionParticipant  - SpringMVC has multiple source entries, this is not supported yet

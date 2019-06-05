@@ -36,6 +36,8 @@
 	</section>
 	<section name="wizardPage">
 		<list key="groupId">
+			<item value="SpringWMVC"/>
+			<item value="SpringEx"/>
 			<item value="Myebay"/>
 			<item value="YoutubeAssignment"/>
 			<item value="StrutsEx"/>
@@ -48,6 +50,8 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="SpringWMVC"/>
+			<item value="SpringEx"/>
 			<item value="Myebay"/>
 			<item value="YoutubeAssignment"/>
 			<item value="StrutsEx"/>
