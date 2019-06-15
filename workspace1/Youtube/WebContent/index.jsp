@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
+    <%@taglib prefix="s" uri="/struts-tags" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -113,96 +114,19 @@
 			<div class="col-md-10" style="padding:50px;">
 				<div class="row">
 				<h5 style="font-weight:bold;margin-left:20px;">Recommended</h5>
-				<div class="col-md-2">
-				<%
-					for(int j=0;j<6;j++)
-						{
-						%>
-						<img  src="images/video-default.png" style="width:100%;">
-						<h5>Sample Title</h4>
-						<h6>Sample Name</h5>
-						<h6>Views : 255K </h5>
-						<br>
-						
-				<% 			
-						}
-				 %>
+				
+				<div class="col-md-6">
+				<table class="table">
+				<s:iterator value="itemList" var="item">
+				<div class="col-md-3">
+					<img class="img img-thumbnail img-responsive" src="http://localhost:5005/Youtube/uploads/<s:property value="videoFileName"/>" />
+					<h3><s:property value="title"/></h3>
+					<span><s:property value="description"/></span>
 					
 				</div>
-				<div class="col-md-2">
-					<%
-					for(int j=0;j<6;j++)
-						{
-						%>
-						<img  src="images/video-default.png" style="width:100%;">
-						<h5>Sample Title</h4>
-						<h6>Sample Name</h5>
-						<h6>Views : 255K </h5>
-						<br>
-						
-				<% 			
-						}
-				 %>
-				</div>
-				<div class="col-md-2">
-					<%
-					for(int j=0;j<6;j++)
-						{
-						%>
-						<img  src="images/video-default.png" style="width:100%;">
-						<h5>Sample Title</h4>
-						<h6>Sample Name</h5>
-						<h6>Views : 255K </h5>
-						<br>
-						
-				<% 			
-						}
-				 %>
-				</div>
-				<div class="col-md-2">
-					<%
-					for(int j=0;j<6;j++)
-						{
-						%>
-						<img  src="images/video-default.png" style="width:100%;">
-						<h5>Sample Title</h4>
-						<h6>Sample Name</h5>
-						<h6>Views : 255K </h5>
-						<br>
-						
-				<% 			
-						}
-				 %>
-				</div>
-				<div class="col-md-2">
-					<%
-					for(int j=0;j<6;j++)
-						{
-						%>
-						<img  src="images/video-default.png" style="width:100%;">
-						<h5>Sample Title</h4>
-						<h6>Sample Name</h5>
-						<h6>Views : 255K </h5>
-						<br>
-						
-				<% 			
-						}
-				 %>
-				</div>
-				<div class="col-md-2">
-					<%
-					for(int j=0;j<6;j++)
-						{
-						%>
-						<img  src="images/video-default.png" style="width:100%;">
-						<h5>Sample Title</h4>
-						<h6>Sample Name</h5>
-						<h6>Views : 255K </h5>
-						<br>
-						
-				<% 			
-						}
-				 %>
+			</s:iterator>
+					</table>
+					
 				</div>
 				</div>
 				

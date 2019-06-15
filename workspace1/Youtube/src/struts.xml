@@ -9,12 +9,23 @@
 		<result name="success">/index.jsp</result>
 		<result name="error">/register.jsp</result>
 	</action>
-	
+	<action name=" " class="com.jcl.strut.action.VideoAction" method="list">
+ 			<result name="success">/index.jsp</result> 
+ 		</action> 
 	<action name="auth" class="com.jcl.strut.action.RegisterAction"
 			 method="auth">
 			 <result name="success" >/index.jsp</result>
-			 <result name="error">/error.jsp</result>
-			 <result name="input">/login.jsp</result>
+			 <result name="error">/sign1.jsp</result>
+			 <result name="input">/sign1.jsp</result>
+		 
 		</action>
+		
+		<action name="save_item" class="com.jcl.strut.action.VideoAction" method="add">
+			<result name="success">/index.jsp</result>
+		</action>
+		
+		
+		
+		
 	</package>
 </struts>

@@ -44,8 +44,9 @@
   margin-left: auto;
   margin-right: auto;width:40%"src="images/login.png">
   <s:form action="auth" method="post" enctype="multipart/form-data">
-		  			<s:textfield name="member.email" label="Your Email" cssClass="form-control"></s:textfield>
-		  			<s:password name="member.password" label="Your Password" cssClass="form-control"></s:password>
+  
+		  			<s:textfield name="user.email" placeholder="Your Email" size="150%" cssClass="form-control"></s:textfield>
+		  			<s:password name="user.password" placeholder="Your Password" cssClass="form-control"></s:password>
 		  			<s:submit value="LOGIN" cssClass="btn btn-success"></s:submit>
 		  		</s:form>
   

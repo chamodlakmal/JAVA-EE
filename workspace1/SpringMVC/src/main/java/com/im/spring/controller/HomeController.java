@@ -11,6 +11,9 @@ public class HomeController {
 
 	@RequestMapping(method=RequestMethod.GET)
 	public String showHome(ModelMap model) {
+		//DB Connection
+		//data Retrieve
+		//Pass Data to view
 		model.addAttribute("message","Hi Machan From Spring MVC");
 		return "home";
 	}

@@ -65,9 +65,12 @@
 		<div class="row">
 			<div class="col-md-2"></div>
 			<div class="col-md-6" style="background-color:#fff;margin-top: 20px;padding: 20px;padding-top: 100px;margin-bottom: 20px;">				
-				<s:form action="save_item" method="POST" enctype="multipart/form-data">							
-							<s:file name="item.photo" label="Upload the file" cssClass="form-control"></s:file>							
-							<s:submit value="Upload"></s:submit>
+				<s:form action="save_item" method="POST" enctype="multipart/form-data">
+							<s:textfield name="item.title" label="Title" size="150%" cssClass="form-control"></s:textfield>
+							<s:textfield name="item.description" label="Description" cssClass="form-control"></s:textfield>							
+							<s:file name="item.photo" label="Photo" cssClass="form-control"></s:file>
+							<img class="img img-responsive img-thumbnail" src="http://localhost:5005/Youtube/uploads/<s:property value="item.photoFileName" />"/>
+							<s:submit value="Save"></s:submit>
 						</s:form>
 				<h5 style="text-align: center;padding: 20px;">
 					Select files to Upload

@@ -11,6 +11,7 @@ import org.hibernate.SessionFactory;
 
 import com.jcl.strut.db.DB;
 import com.jcl.strut.model.User;
+import com.jcl.strut.model.Video;
 import com.opensymphony.xwork2.ActionSupport;
 
 public class RegisterAction extends ActionSupport {
@@ -29,7 +30,8 @@ public class RegisterAction extends ActionSupport {
 		}
 		
 	}
-
+	private List<Video> itemList;
+	private Video item;
 	public String auth() {
 		try {
 			SessionFactory sf = DB.getSessionFactory();
@@ -42,17 +44,15 @@ public class RegisterAction extends ActionSupport {
 			List result = query.getResultList();
 			if(result.size()>0) {
 				User user = (User)result.get(0);
-				map.put("NAME", user.getFirstName());
-				
+				//map.put("NAME", user.getFirstName());
+				itemList =  (List<Video>) DB.list("Video");
 				return SUCCESS;
 			}else {
 				return ERROR;
 			}
-			//Return Success
 			
 		} catch (Exception e) {
 			e.printStackTrace();
-			//Return ERROR
 			return ERROR;
 		}
 	}
@@ -64,6 +64,25 @@ public class RegisterAction extends ActionSupport {
 	public void setUser(User user) {
 		this.user = user;
 	}
+	public Map<String, Object> getMap() {
+		return map;
+	}
+	public void setMap(Map<String, Object> map) {
+		this.map = map;
+	}
+	public List<Video> getItemList() {
+		return itemList;
+	}
+	public void setItemList(List<Video> itemList) {
+		this.itemList = itemList;
+	}
+	public Video getItem() {
+		return item;
+	}
+	public void setItem(Video item) {
+		this.item = item;
+	}
+	
 	
 	
 }

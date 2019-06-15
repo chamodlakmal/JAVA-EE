@@ -15,6 +15,7 @@
 		<property name="dialect">org.hibernate.dialect.MySQL5Dialect</property>
 		<property name="hbm2ddl.auto">update</property>
 		<mapping class="com.jcl.strut.model.User"></mapping>
+		<mapping class="com.jcl.strut.model.Video"></mapping>
 		
 	</session-factory>
 	
