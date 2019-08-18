@@ -10,6 +10,7 @@ public class CustomerDaoImpl extends HibernateDaoSupport implements CustomerDao 
 
 	@Override
 	public void addCustomer(Customer customer) {
+		//Data logics here
 		getHibernateTemplate().save(customer);
 		
 	}

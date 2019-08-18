@@ -149,7 +149,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="D:\tool\EE\JAVA-EE\workspace1\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="D:\tool\EE\JAVA-EE\workspace1\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringEbay" path="/SpringEbay" reloadable="true" source="org.eclipse.jst.jee.server:SpringEbay"/></Host>
+      <Context docBase="D:\tool\EE\JAVA-EE\workspace1\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="D:\tool\EE\JAVA-EE\workspace1\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\SpringEbay" path="/SpringEbay" reloadable="true" source="org.eclipse.jst.jee.server:SpringEbay"/><Context docBase="D:\tool\EE\JAVA-EE\workspace1\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\IPGEx" path="/IPGEx" reloadable="true" source="org.eclipse.jst.jee.server:IPGEx"/></Host>
     </Engine>
   </Service>
 </Server>

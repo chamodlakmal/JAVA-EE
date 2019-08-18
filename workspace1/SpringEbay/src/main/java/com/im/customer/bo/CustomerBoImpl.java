@@ -9,11 +9,13 @@ public class CustomerBoImpl implements CustomerBo {
 	CustomerDao customerDao;
 	
 	public void setCustomerDao(CustomerDao customerDao) {
+		
 		this.customerDao = customerDao;
 	}
 
 	//call Dao to save customer
 	public void addCustomer(Customer customer){
+		//Buisness logic here
 		customerDao.addCustomer(customer);
 	}
 	

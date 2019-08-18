@@ -36,6 +36,7 @@
 	</section>
 	<section name="wizardPage">
 		<list key="groupId">
+			<item value="com.im"/>
 			<item value="SpringMVC"/>
 			<item value="SpringWMVC"/>
 			<item value="SpringEx"/>
@@ -49,8 +50,10 @@
 			<item value="MavenEx"/>
 		</list>
 		<list key="name">
+			<item value="Customer Relationship Management"/>
 		</list>
 		<list key="artifactId">
+			<item value="crm"/>
 			<item value="SpringMVC"/>
 			<item value="SpringWMVC"/>
 			<item value="SpringEx"/>

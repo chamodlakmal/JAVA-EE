@@ -49,7 +49,7 @@ public class SupplierAction implements ModelDriven {
 
 	@Override
 	public Object getModel() {
-		return null;
+		return supplier;
 	}
 	
 	public String addSupplier() throws Exception

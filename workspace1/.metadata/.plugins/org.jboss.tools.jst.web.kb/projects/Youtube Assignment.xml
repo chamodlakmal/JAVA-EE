@@ -87,9 +87,5 @@
  </validation>
  <aliases/>
  <includes/>
- <uris>
-  <uri value="/struts-tags">
-   <prefix>s</prefix>
-  </uri>
- </uris>
+ <uris/>
 </kb-project>
